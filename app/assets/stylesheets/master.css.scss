@@ -1,3 +1,5 @@
+
+
 .clear {
   clear:both;
 }
@@ -36,11 +38,30 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'quicksandregular';
+
 }
+
 
 header {
   border-top: 9px solid #222222;
 }
 
 
+hr {
+  clear:both;
+}
 
+h1 {
+ font-family: 'quicksandregular';
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2{
+    font-family: 'quicksandlight_italic';
+  
+  
+  
+
+}
