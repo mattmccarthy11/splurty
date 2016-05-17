@@ -8,6 +8,7 @@
 </head>
 <body>
 <header>
+      <%= link_to root_path, class: 'logo' do %>
 <div class="col-xs-3">
   <div class="circle">
   <br />
@@ -15,13 +16,14 @@
   <br />
   Quotes
   </div>
+  <% end %>
 </div>
 <div class="col-xs-4 slogan ">
       Splurting out unsolicited advice about entrepreneurship since 2016
 </div>
 <div class="col-xs-5 links">
-  <%= link_to 'Contribute', '#' %>
-  <%= link_to 'About', '#' %> 
+  <%= link_to 'Contribute', new_quote_path %>
+  <%= link_to 'About', '#h' %> 
 </div>
 
 </header>
@@ -38,7 +40,7 @@
   <div class="footer">
     <div class="container"> 
        <div class="col-xs-6"> 
-         <%= link_to "This isn't enough, I need more Advise", "#", class: 'next-quote' %> 
+         <%= link_to "This isn't enough, I need more Advise", root_path, class: 'next-quote' %> 
        </div>
        <div class="col-xs-6 footer-blurb">
          
